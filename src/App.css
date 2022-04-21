@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+table {
+    border-collapse: collapse;
+    width: 630px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+
+    border: 1px solid #B9B9B9;
+    box-sizing: border-box;
+    border-radius: 2px;
+    
+
+}
+
+tr:nth-child(1) {
+    background: rgba(0, 0, 0, 0.05);
+    color: #000000;
+}
+
+tr:nth-child(2n) {
+    background: #F3F9FF;
+}
+.back{
+    background: orange;
+}
